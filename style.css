@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #434343;
+}
+
+.border{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 100px;
+    width: 200px;
+    border: 6px solid transparent;
+    border-image: linear-gradient(4deg, #a184e9, #01c5f6, #5cd5e0);
+    border-image-slice: 2;
+}
